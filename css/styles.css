@@ -1,0 +1,111 @@
+body {
+  font-family: "Outfit";
+  background-color: hsl(217, 54%, 11%);
+}
+
+h5 {
+  color: hsl(0, 0%, 100%);
+}
+
+footer {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.mainText {
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -300px;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%) !important;
+  margin: 50px;
+}
+
+.card-img-center {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.card-title:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.card-text-1 {
+  color: hsl(215, 51%, 70%);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.ethereumImage {
+  color: hsl(178, 100%, 50%);
+  position: relative;
+  top: 10px;
+  display: inline;
+  font-size: 12px;
+}
+
+.card-text-3 {
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  top: 13px;
+  display: inline;
+  float: right;
+  font-size: 12px;
+}
+
+.card-text-4 {
+  color: hsl(215, 51%, 70%);
+  float: left;
+  width: 25%;
+  margin-top: 5px;
+}
+
+.card-body {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: -20px !important;
+}
+
+.bg-body {
+  border-radius: 20px;
+  --bs-bg-opacity: 0;
+  background-color: hsl(215, 51%, 70%);
+}
+
+.avatar-image {
+  border: 1px solid white;
+  border-radius: 100px;
+}
+
+.textAvatar {
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  top: 10px;
+  font-size: 14px;
+}
+
+.creator {
+  color: white;
+  font-size: 14px;
+}
+
+.creator:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
